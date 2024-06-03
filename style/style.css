@@ -1,0 +1,630 @@
+*{margin: 0; 
+padding:0; 
+box-sizing: border-box;
+font-family: Fonte Sans;}
+
+@font-face{font-family: "Fonte Sans";
+src:url('../CONTEUDO/FONTES/SANS/OpenSans-Light.ttf');}
+
+html,body{height:100%;}
+
+/* Classes Gerais⬇️ */
+
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+.clear{clear: both;}
+
+/* Classes Gerais⬆️ */
+
+
+header{width: 100%;
+    height: 90vh;
+    min-height: 800px;
+    /* max-height: 700px; */
+    padding: 40px 2%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../CONTEUDO/IMAGEM/capa.png');
+}
+
+nav{float:right;}
+
+/* Desktop⬇️ */
+
+
+    .descktop ul{ list-style-type: none;}
+
+    .descktop li{float: left;
+        padding:0 20px;
+    }
+
+    .descktop a{text-decoration: none;
+        color:white;
+    }
+
+/* Desktop⬆️ */
+
+/* ******************************************************** */
+
+/* Mobile⬇️ */
+
+.mobile:hover ul{display: block;}
+
+.mobile ul li a {color:black;
+    background-color: rgb(190, 188, 188);
+    transition: 1s;
+}
+
+.mobile{display: none;
+    transition: 1s;
+    cursor: pointer;
+    width:32px;
+    height: 32px;
+    background-image: url('../CONTEUDO/IMAGEM/menu-aberto.png');
+}
+
+.mobile ul{display:none;
+    position: absolute;
+    width:100%;
+    list-style-type: none;
+    left:0;
+    top:80px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.mobile ul li{border-bottom: 1px solid black;
+    padding: 8px 0;
+
+}
+
+.mobile a{text-decoration: none;
+    color:black;
+    
+}
+
+
+/* Mobile⬆️ */
+
+.logo{float: left;
+    width: 80px;
+    height:80px;
+    background-image: url('../CONTEUDO/IMAGEM/Astronalta.jpg');
+    border-radius: 100%;
+    background-size: 100% 100%;}
+
+/* CHAMADA1⬇️ */
+
+    .chamada1{max-width: 600px;
+        float:right;
+        margin: 140px 45px;}
+    
+    .chamada1 h2{
+        font-size:40px;
+        color:white;
+        font-weight:normal;
+    }
+    
+    .chamada1 p{font-size: 15px; 
+        color:white;
+        margin-top: 10px;
+    }
+
+/* CHAMADA1⬆️ */
+
+/* ******************************************************* */
+
+/* SESSÃO1⬇️ */
+
+    .sessao1{width:100%;
+        padding:0 2%;
+        background-color:#472562;
+        height: 500px;
+    }
+
+    .sessao1 .container{
+        max-width:1000px;
+
+    }
+        
+    .btn1-texto{background-color: #ff703d;
+        width:165px;
+        height:45px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 13px;
+        margin-top:26px;
+        color:white;
+        border: none;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 30px;
+    }
+
+    .device-sessao{
+        float: left;
+        width: 50%;
+        height: 550px;
+        background-image: url('../CONTEUDO/IMAGEM/device.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        top:-50px;
+    }
+
+
+    .texto-sessao1{float:left;
+        width:50%;
+        position: relative;
+        left:100px;
+        color:white;
+        margin-top:60px;
+        padding-left: 80px;
+    }
+
+    .texto-sessao1 h2{font-weight:300px;
+        font-size: 26px;}
+
+    .texto-sessao1 p{font-size:15px;
+        margin-top: 20px;}
+
+    .texto-sessao1 ul{list-style-position: outside;
+        font-size:15px;}
+
+    .texto-sessao1 ul li{
+        margin-top: 8px;
+        float:left;
+        width:100%;
+    }
+
+
+/* SESSÃO1⬆️ */
+/* *********************************************************** */
+/* SESSÃO2⬇️ */
+
+    .sessao2{padding:0 2%;
+        background-color:white;
+        text-align: center;}
+
+    .sessao2 h2{
+        color: #474747;
+        font-weight: 700;
+    }
+
+    .sessao2 p{margin-top:30px;
+        max-width: 900px;
+        display: inline-block;
+    }
+
+    .sessao2 .container{width:100% ;
+        max-width:1000px;
+    }
+
+    .sessao2 img{width: 100%;
+        margin-top:30px;
+        position:relative;
+        top:70px;
+        box-shadow: 2px 2px 10px 5px rgb(98, 98, 99);
+    }
+    
+
+/* SESSÃO2⬆️ */
+
+/* ******************************************************* */
+
+/* SESSÃO3⬇️ */
+
+    .sessao3{
+        width:100%;
+    }
+
+    .wraper-parte1{max-width: 600px;
+        float:left;
+        padding:0 30px;   
+    }
+
+    .parte1{float:left;
+        color: white;
+        width:50%;
+        padding:140px 0 90px 0;
+        background-color:#835fa7;
+    }
+
+    .parte1 h2{
+        font-weight:300;
+        font-style:italic;
+        font-size: 23px;
+    }
+
+    .parte1 p{font-size:15px;
+        line-height:35px;
+        margin-top: 10px;
+    }
+
+    .parte2{
+        float:left;
+        width:50%;
+        padding:140px 0 90px 0;
+        background-color:white;
+    }
+
+    .slider-bullets{
+        width:100%;
+        float:left;
+        margin-top: 12px;
+        padding-left:30px;
+    }
+    
+    .slider-bullets div{width: 10px;
+        float: left;
+        height: 10px;
+        border-radius:8px;
+        margin-right:8px;
+        cursor:pointer;
+        background-color:rgb(141, 139, 139);
+    }
+
+
+/* SESSÃO3⬆️ */
+
+/* ********************************************************* */
+
+/* SESSÃO4⬇️ */
+
+    .sessao4{ 
+        background-color:#472563;
+        padding:100px 0;
+    }
+
+    .form{
+        float: left;
+        width:50%;
+        color:white;
+        padding-left: 30px;
+    }
+
+    .form h2{
+        font-size:23px;
+        font-weight:500;
+    
+    }
+
+    .form p{padding-right: 10px;
+        font-size:15px;
+        font-weight: 300;
+        max-width:400px;
+    }
+
+    .form form{
+        margin-top: 15px;
+    }
+
+    .form input[type=text]{
+        width:90%;
+        max-width: 480px;
+        height:58px;
+        line-height: 58px;
+        border:none;
+        margin-top: 8px;
+        border-radius: 10px;
+    }
+
+    .form textarea{width: 90%;
+        max-width: 480px;
+        padding: 15px;
+        height: 160px;
+        margin-top: 8px;
+        border-radius: 10px;
+    }
+
+    .form input[type=submit]{
+        background-color: #ff703d;
+        width:165px;
+        height:44px;
+        font-size:13px;
+        font-weight: bold;
+        color:white;
+        cursor:pointer;
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 30px;
+        border:none;
+    }
+
+    .map{
+        position: absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height: 100%;
+        background-color:white;
+        border:5px solid gray;
+        margin-top: 10px;
+    }
+
+
+    .map-wraper{
+        float:left;
+        width:50%;
+        color:white;
+        padding: 0 10px;
+    }
+
+    .map-wraper2{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        padding-top:100%
+    }
+
+    .map-wraper3{
+        margin-top: 10px;
+        width:100%;
+        max-width: 480px;
+        position: relative;
+    }
+
+    .map-wraper h2{
+        font-size:23px;
+        font-weight:500px;
+    }
+
+    .map-wraper3 img {width:100%;
+        max-width:480px;
+        height:100%;}
+
+
+
+/* SESSÃO4⬆️ */
+
+/* ******************************************************** */
+
+/* TUDO SOBRE O AUTOR⬇️ */
+
+    .sobre-autor{
+        float:left;
+        max-width:600px;
+        padding-left:30px;
+
+    }
+
+    .titulo-autor{
+        float: left;
+        width: 100%;
+
+    }
+
+    .titulo-autor h2{
+        color:#232323;
+        font-weight: 700;
+        font-size: 21px;
+        padding-right:20px;
+    }
+
+    .titulo-autor p{font-size: 15px;
+        color:#232323;
+        font-style: italic;
+        font-weight:300;}
+
+    .texto-autor p{color:#232323;
+        font-size:15px;
+    }
+
+    .img-autor{width: 50px;
+        height:50px;
+        float: left;
+        background-color:green;
+    }
+
+
+    .titulo-autor .img-autor{
+        background-image:url('../CONTEUDO/IMAGEM/jose.jpg');
+        float: left;
+        width:40px;
+        height:40px;
+        border-radius: 100%;
+        background-size:100% 100%;
+        position: relative;
+        top:-4px;
+    }
+
+    .wraper-titulo-autor{
+        float:left;
+    }
+
+    .texto-autor{float:left;
+        width:100%;
+        margin-top: 10px;}
+
+/* TUDO SOBRE O AUTOR⬆️ */
+
+    
+/* ÁREA DO RODAPÉ⬇️ */
+
+    footer{padding: 40px 2%;
+        background: #192123;
+        color:white;
+
+    }
+
+    footer p:nth-of-type(1){
+        float: left;
+        font-size: 14px;
+    }
+
+    footer p:nth-of-type(2){
+        float: right;
+        font-size: 14px;
+    }
+
+/* ÁREA DO RODAPÉ⬆️ */
+
+
+/* ÁREA DA MEDIA QUERIES⬇️ */
+
+    @media screen and (max-width: 830px) {
+
+        .chamada1{
+            max-width:none;
+            width:100%;
+            text-align: center;
+            float:none;
+            margin:170px 0;
+        }
+        
+        .chamada1 h2{
+            font-weight:300px;
+            font-size:30px;
+            padding:0 0px;
+            color:white;
+        }
+
+        .chamada1 p{
+            font-size:15px;
+            color:white;
+            margin-top: 10px;
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 768px){
+
+        header{padding-top: 10px;
+            height: auto;
+            min-height: 90vh;
+        }
+
+        .descktop{display:none;}
+
+        .mobile{display:block}
+
+
+        .chamada1{max-width: none;
+            text-align: center;
+            float:none;
+            margin:100px 0;
+        }
+        
+        .chamada1 h2{
+            font-size:30px;
+            color:white;
+            font-weight:normal;
+            padding: 0 10px;
+        }
+        
+        .chamada1 p{font-size: 15px; 
+            color:white;
+            margin-top: 10px;
+        }
+
+
+        .sessao1{
+            height: auto;
+            text-align: center;
+            padding: 20px 2%;
+        }
+
+
+        .sessao2{padding:40px 2%;}
+
+
+        .texto-sessao1{
+            margin-top: 0;
+            width:100%;
+            position: static;
+            float:none;
+            display: inline-block;
+            padding-left: 0;
+        }
+
+        .texto-sessao1 ul {
+            display: inline-block;
+            margin-top: 25px;
+        }
+
+        .texto-sessao1 ul li{
+            float: none;
+            text-align: left;
+        }
+
+        .btn1-texto{display: inline-block;}
+
+        .device-sessao{display: none;}
+
+   
+        .map-wraper{float: none;
+            width:100%;
+            margin-top: 40px;
+            padding: 0 4%;
+        }
+
+        .map-wraper2{position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 0;
+        }
+
+        .map-wraper3{display: inline-block;
+            margin-top: 10px;
+            width: 80%;
+            padding-top:80%;
+            max-width: none;
+            position: relative;
+        }
+
+        .form{width: 100%;
+            float: none;}
+
+        .form p{display: inline-block;}
+
+        .sessao4 .container{
+            text-align: center;
+        }
+
+    }
+
+
+    @media screen and (max-width: 580px){
+
+        .parte1{width:100%;
+            padding: 40px 0;
+        }
+
+        .parte2{width:100%;
+            padding: 40px 0;
+        }
+
+        .sessao2 img{
+            top:16px;
+            margin-top: 20px;
+        }
+
+
+        footer{text-align: center;
+    
+        }
+    
+        footer p:nth-of-type(1){
+            float: none;
+        }
+    
+        footer p:nth-of-type(2){
+            float: none;
+            margin-top: 20px;
+        }
+
+
+    }
+
+
+
+/* ÁREA DA MEDIA QUERIES⬆️ */
